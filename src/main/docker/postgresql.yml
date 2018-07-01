@@ -1,0 +1,11 @@
+version: '2'
+services:
+    swarmagent-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/SwarmAgent/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=SwarmAgent
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
