@@ -1,10 +1,18 @@
 
-  ${AnsiColor.GREEN}      ██╗${AnsiColor.RED} ██╗   ██╗ ████████╗ ███████╗   ██████╗ ████████╗ ████████╗ ███████╗
-  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ██║   ██║ ╚══██╔══╝ ██╔═══██╗ ██╔════╝ ╚══██╔══╝ ██╔═════╝ ██╔═══██╗
-  ${AnsiColor.GREEN}      ██║${AnsiColor.RED} ████████║    ██║    ███████╔╝ ╚█████╗     ██║    ██████╗   ███████╔╝
-  ${AnsiColor.GREEN}██╗   ██║${AnsiColor.RED} ██╔═══██║    ██║    ██╔════╝   ╚═══██╗    ██║    ██╔═══╝   ██╔══██║
-  ${AnsiColor.GREEN}╚██████╔╝${AnsiColor.RED} ██║   ██║ ████████╗ ██║       ██████╔╝    ██║    ████████╗ ██║  ╚██╗
-  ${AnsiColor.GREEN} ╚═════╝ ${AnsiColor.RED} ╚═╝   ╚═╝ ╚═══════╝ ╚═╝       ╚═════╝     ╚═╝    ╚═══════╝ ╚═╝   ╚═╝
 
-${AnsiColor.BRIGHT_BLUE}:: JHipster 🤓  :: Running Spring Boot ${spring-boot.version} ::
-:: https://www.jhipster.tech ::${AnsiColor.DEFAULT}
+
+  ${AnsiColor.GREEN}███████╗██╗    ██╗ █████╗ ██████╗ ███╗   ███╗${AnsiColor.RED} █████╗  ██████╗ ███████╗███╗   ██╗████████╗
+  ${AnsiColor.GREEN}██╔════╝██║    ██║██╔══██╗██╔══██╗████╗ ████║${AnsiColor.RED}██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝
+  ${AnsiColor.GREEN}███████╗██║ █╗ ██║███████║██████╔╝██╔████╔██║${AnsiColor.RED}███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   
+  ${AnsiColor.GREEN}╚════██║██║███╗██║██╔══██║██╔══██╗██║╚██╔╝██║${AnsiColor.RED}██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   
+  ${AnsiColor.GREEN}███████║╚███╔███╔╝██║  ██║██║  ██║██║ ╚═╝ ██║${AnsiColor.RED}██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   
+  ${AnsiColor.GREEN}╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝${AnsiColor.RED}╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   
+                                                                                         
+
+
+${AnsiColor.BRIGHT_BLUE}:: Next Generation AIOps PLatform 🤓 :: Running Spring Boot ${spring-boot.version} ::
+:: https://aiops.servmind.io ::${AnsiColor.DEFAULT}
+
+
+
+
