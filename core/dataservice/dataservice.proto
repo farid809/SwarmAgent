@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package dataservice;
+
+option go_package = "github.com/farid809/SwarmAgent";
+
+service DataService {
+  rpc CreateOrUpdate (KeyValuePair) returns (OperationResult) {}
+  rpc Read (Key) returns (KeyValuePair) {}
+  rpc Delete (Key) returns (OperationResult) {}
+}
+
+message KeyValuePair {
+  string key = 1;
+  string value = 2;
+}
+
+message Key {
+  string key = 1;
+}
+
+message OperationResult {
+  bool success = 1;
+  string message = 2;
+}
