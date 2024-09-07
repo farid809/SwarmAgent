@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package dataservice;
 
-option go_package = "github.com/farid809/SwarmAgent";
+option go_package = "github.com/farid809/SwarmAgent/internal/dataservice";
 
 service DataService {
   rpc CreateOrUpdate (KeyValuePair) returns (OperationResult) {}
